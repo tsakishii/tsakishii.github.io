@@ -81,6 +81,7 @@ p  {font-size: 26px;}
 
 .img1 {
     width: 400px;
+    widht: 400px;
     position: relative;
     left: 10em;
     margin:0 0 6.5em 0;
@@ -321,17 +322,22 @@ p  {font-size: 26px;}
         top: 5em;
         left: 30em;
         width: 250px;
-        margin: 0 0 2em 0;
+        margin: 0 0 3em 3em;
+    }
+
+    .arrow {
+        position: relative;
+        margin: 0 0 0 3em;
     }
 
     .my-img{
-        width: 300;
-        height: 300;
+        width: 400;
+        height: 400;
     }
 
     .img1 {
-        width: 200;
-        height: 200;
+        width: 400px;
+        height: 400px;
         position: relative;
         left: 10em;
         margin:0 0 8.5em 0;
