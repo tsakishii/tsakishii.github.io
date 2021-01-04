@@ -10,7 +10,6 @@ function actionLinked(){
     );
 }
 
-
 function normalGit() {
     document.getElementById("github-icon").style.transform = "scale(1.0)";
 }
