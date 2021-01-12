@@ -2,4 +2,4 @@
 #+author: KiwiB0y
 
 * This is my website
-  I have a nice intro about myself with a few links to external sites
+  I have a nice intro about myself with a few links
