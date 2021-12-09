@@ -6,7 +6,7 @@ function actionGithub(){
 
 function actionLinked(){
     window.open(
-	"https://www.linkedin.com/in/tsvyatko-hristov-745317201/", "_blank"
+	"https://www.linkedin.com/in/tshri100v/", "_blank"
     );
 }
 
