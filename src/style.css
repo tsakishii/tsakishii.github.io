@@ -23,7 +23,7 @@ html, body {
     margin: 0;
     text-align: center;
     background-color: var(--bgColor);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inconsolata', monospace;
 }
 
 .main-container {
@@ -37,7 +37,7 @@ html, body {
 }
 
 .greeting {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Inconsolata', monospace;
     color: var(--fgBlue);
     position: center;
 }
@@ -50,7 +50,7 @@ html, body {
 }
 
 .card {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Inconsolata', monospace;
     width: auto;
     color: var(--fgBlue);
 }
@@ -84,7 +84,7 @@ li:hover {
         margin: 0;
         text-align: center;
         background-color: var(--bgColor);
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Inconsolata', monospace;
     }
 
     .main-container {
@@ -98,7 +98,7 @@ li:hover {
     }
 
     .greeting {
-        font-family: 'Indie Flower', cursive;
+        font-family: 'Inconsolata', monospace;
         color: var(--fgBlue);
         position: center;
     }
@@ -117,7 +117,7 @@ li:hover {
     }
 
     .card {
-        font-family: 'Indie Flower', cursive;
+        font-family: 'Inconsolata', monospace;
         width: auto;
         color: var(--fgBlue);
     }
