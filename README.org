@@ -3,3 +3,31 @@
 
 * This is my website
   A compact intro about myself with a few links to my social media profiles
+
+** Developing
+
+Start a development server:
+
+#+begin_src bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+#+end_src
+
+
+** Building
+
+To create a production version of your app:
+
+#+begin_src bash
+npm run build
+#+end_src
+
+You can preview the production build with =npm run preview=.
+
+** GitHub Pages
+
+Since I am deploying the website directly to GitHub Pages I would have to
+install an adapter from here [[https://kit.svelte.dev/docs/adapters][adapters]].
+
