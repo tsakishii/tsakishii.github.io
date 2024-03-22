@@ -38,5 +38,22 @@
     font-size: 37px;
 		font-weight: 700;
     color: var(--fgColor);
-  }	
+  }
+
+  @media screen and (max-width: 768px) {
+    main {
+      width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    main {
+      width: 70%;
+    }
+
+    h1 {
+      font-size: 24px; /* Adjust as needed */
+      font-weight: 600;
+    }
+  }
 </style>
