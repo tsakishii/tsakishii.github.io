@@ -24,6 +24,12 @@
 	.foot-note .me {
 		color: var(--fgColor);
 	}
+
+  .me:hover {
+		transition: color 0.4s ease-in-out;
+    color: var(--hoverColor);
+	}
+
   @media screen and (max-width: 1080px) {
     .foot-note {
       display: none;
