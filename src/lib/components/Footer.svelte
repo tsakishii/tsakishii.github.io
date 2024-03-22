@@ -24,4 +24,9 @@
 	.foot-note .me {
 		color: var(--fgColor);
 	}
+  @media screen and (max-width: 1080px) {
+    .foot-note {
+      display: none;
+    }
+  }
 </style>
