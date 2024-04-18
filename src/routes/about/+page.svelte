@@ -50,4 +50,23 @@
   p {
     font-size:22px;
   }
+
+  @media screen and (max-width: 768px) {
+    main {
+      width: 90%;
+      top:5%
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    main {
+      width: 70%;
+      top: 5%
+    }
+
+    h1 {
+      font-size: 24px; /* Adjust as needed */
+      font-weight: 600;
+    }
+  }
 </style>
