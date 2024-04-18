@@ -7,11 +7,26 @@
   export let opened = false;
 </script>
 
-<div class="navbar">
-  <div class="burger">
-    <Hamburger bind:open={opened} />
+<div class={opened ? "navbar-closed" : "navbar-opened"}>
+  <div class="button-container">
+    <div class="burger">
+      <Hamburger bind:open={opened} />
+    </div>
+    <div class="buttons">
+      {#each routes as route}
+        {#if path === route.href}
+          <a class="button selected" href={route.href}>
+            {route.label}
+          </a>
+        {:else}
+          <a class="button" href={route.href}>
+            {route.label}
+          </a>
+        {/if}
+      {/each}
+    </div>
   </div>
-  <div class="buttons">
+  <div class="burger-buttons">
     {#each routes as route}
       {#if path === route.href}
         <a class="button selected" href={route.href}>
@@ -27,10 +42,16 @@
 </div>
 
 <style>
-  .navbar {
+  .navbar-closed {
     display: flex;
     justify-content: flex-end;
-    margin-right: 15rem;
+    margin-right: 5rem;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
   }
 
   .buttons {
@@ -66,17 +87,36 @@
     .burger {
       display: none !important;
     }
+
+    .burger-buttons .button {
+      display: none !important;
+    }
   }
 
   @media (max-width: 900px) {
-    .buttons .button{
-      display: none !important;
+
+    .burger-buttons .button {
+      display: flex;
+      text-decoration: none;
+      align-items: center;
+      margin: 10 auto;
+      padding: 10 auto;
+      color: var(--fgColor);
     }
 
-    .navbar {
-      display: flex;
-      justify-content: flex-end;
-      margin-right: 2rem;
+    .burger-buttons {
+      display:none;
     }
+
+    .burger {
+      display: none;
+    }
+
+	  .button {
+		  display: none;
+		  justify-content: space-between;
+		  align-items: center;
+		  font-weight: 500;
+	  }
   }
 </style>
