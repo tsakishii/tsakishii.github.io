@@ -4,11 +4,7 @@
 
   export let path;
 
-  let opened = false;
-
-  function toggleNavbar() {
-    opened = !opened;
-  }
+  export let opened = false;
 </script>
 
 <div class="navbar">
