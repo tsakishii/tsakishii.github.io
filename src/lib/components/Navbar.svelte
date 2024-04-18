@@ -42,7 +42,7 @@
 </div>
 
 <style>
-  .navbar-closed {
+  .navbar-opened {
     display: flex;
     justify-content: flex-end;
     margin-right: 5rem;
