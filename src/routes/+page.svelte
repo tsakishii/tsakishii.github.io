@@ -15,9 +15,7 @@
   <div>
     <Card />
   </div>
-  <h1>
-    Hi! 👋 I am Tsvyatko aka kiwib0y
-  </h1>
+  <h1>Hi! 👋 I am Tsvyatko aka kiwib0y</h1>
   <div>
     <Social />
   </div>
@@ -38,6 +36,7 @@
     font-size: 37px;
 		font-weight: 700;
     color: var(--fgColor);
+    user-select: none;
   }
 
   @media screen and (max-width: 768px) {
@@ -56,6 +55,7 @@
     h1 {
       font-size: 24px; /* Adjust as needed */
       font-weight: 600;
+      user-select: none;
     }
   }
 </style>

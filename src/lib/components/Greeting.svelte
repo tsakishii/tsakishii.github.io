@@ -8,5 +8,6 @@
     font-size: 26px;
     color: var(--fgColor);
     position: center;
+    user-select: none;
   }
 </style>

@@ -30,6 +30,7 @@
     margin: 0 auto;
     width: 600px;
     text-align: center;
+    user-select: none;
 	}
 
   .description {

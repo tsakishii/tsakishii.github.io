@@ -15,5 +15,6 @@
     border-radius: 70px;
     width: 45%;
     box-shadow: 4px 4px 4px;
+    user-select: none;
   }
 </style>
