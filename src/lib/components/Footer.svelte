@@ -1,6 +1,6 @@
 <footer>
   <div class="foot-note">
-    This website was made by <a class="me" href="/about">kiwib0y</a>
+    This website was made by <a class="me" href="/about">tsakishii</a>
     using <span class="svelte">SvelteKit</span>
   </div>
 </footer>

@@ -4,7 +4,9 @@
 </script>
 
 <Navbar />
+
 <slot />
+
 <Footer />
 
 <style>

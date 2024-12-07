@@ -58,7 +58,7 @@
     position: absolute;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
     max-width: 100px;
     width: 100%;
     text-align: center;
@@ -109,6 +109,10 @@
     }
 
     .burger {
+      display: none;
+    }
+
+    .button:hover {
       display: none;
     }
 
