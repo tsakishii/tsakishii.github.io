@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Kiwi's place - Home</title>
+	<title>Tsakishii's place - Home</title>
 </svelte:head>
 
 <main>
@@ -15,7 +15,7 @@
   <div>
     <Card />
   </div>
-  <h1>Hi! 👋 I am Tsvyatko aka kiwib0y</h1>
+  <h1>Hi! 👋 I am Tsvyatko aka tsakishii</h1>
   <div>
     <Social />
   </div>

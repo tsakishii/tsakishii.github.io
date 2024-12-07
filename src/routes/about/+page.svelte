@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Kiwi's place — About</title>
+  <title>Tsakishii's place — About</title>
 </svelte:head>
 
 <main>
@@ -18,14 +18,14 @@
       Currently, I'm deep into the realm of implementing a
       production-ready build pipeline at my current company.
     </p>
-  </div> 
+  </div>
 </main>
 
 <style>
-	main {
+  main {
     position: relative;
-    left: 0;
-    right: 0;
+    left: auto;
+    right: auto;
     top: 10%;
     margin: 0 auto;
     width: 600px;
@@ -36,17 +36,18 @@
   .description {
     background-color: var(--fgColor);
     width: auto;
+    height: 128px;
     padding: 20px 20px 20px 20px;
     color: var(--bgColor);
     border-radius: 40px;
     border: 10px solid var(--fgColor);
   }
 
-	h1 {
+  h1 {
     font-size: 37px;
-		font-weight: 700;
+    font-weight: 700;
     color: var(--fgColor);
-  }	
+  }
 
   p {
     font-size:22px;
@@ -57,17 +58,13 @@
       width: 90%;
       top:5%
     }
-  }
-
-  @media screen and (max-width: 480px) {
-    main {
-      width: 70%;
-      top: 5%
+    .description {
+      width: auto;
+      height: 160px;
     }
-
-    h1 {
-      font-size: 24px; /* Adjust as needed */
-      font-weight: 600;
+    p {
+      font-size: 18px;
     }
   }
+
 </style>
