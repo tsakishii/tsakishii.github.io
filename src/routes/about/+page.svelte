@@ -26,7 +26,7 @@
     position: relative;
     left: auto;
     right: auto;
-    top: 10%;
+    top: 5%;
     margin: 0 auto;
     width: 600px;
     text-align: center;
@@ -36,8 +36,11 @@
   .description {
     background-color: var(--fgColor);
     width: auto;
-    height: 128px;
+    height: 138px;
+    justify-content: center;
+    text-align: center;
     padding: 20px 20px 20px 20px;
+    top: 50%;
     color: var(--bgColor);
     border-radius: 40px;
     border: 10px solid var(--fgColor);
@@ -51,19 +54,23 @@
 
   p {
     font-size:22px;
+    text-align: center;
+    vertical-align: middle;
   }
 
   @media screen and (max-width: 768px) {
     main {
       width: 90%;
-      top:5%
+      top: 10%;
     }
     .description {
       width: auto;
-      height: 160px;
+      height: 155px;
     }
     p {
       font-size: 18px;
+      text-align: center;
+      vertical-align: middle;
     }
   }
 
