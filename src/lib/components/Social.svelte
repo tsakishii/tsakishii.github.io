@@ -6,7 +6,7 @@
 
 <div class="icons">
 	<a 
-		href="https://github.com/kiwib0y"
+		href="https://github.com/tsakishii"
     aria-label="GitHub"
 		target="_blank"
 	  rel="noopener noreferrer"
@@ -16,7 +16,7 @@
 		</div>
 	</a>
   <a 
-		href="https://twitter.com/b0ykiwi"
+		href="https://twitter.com/tsakishii"
     aria-label="GitHub"
 		target="_blank"
 	  rel="noopener noreferrer"
