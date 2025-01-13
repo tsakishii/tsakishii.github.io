@@ -1,7 +1,10 @@
 <script>
-	import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
-	import FaGithubSquare from 'svelte-icons/fa/FaGithubSquare.svelte';
-  import FaTwitterSquare from 'svelte-icons/fa/FaTwitterSquare.svelte'
+  import { Icon } from 'svelte-icons-pack';
+  import { FaBrandsXTwitter } from "svelte-icons-pack/fa";
+  import { FaBrandsSquareGithub } from "svelte-icons-pack/fa";
+  import { FaBrandsLinkedin } from "svelte-icons-pack/fa";
+
+  const size = 36
 </script>
 
 <div class="icons">
@@ -12,17 +15,17 @@
 	  rel="noopener noreferrer"
 	>
 		<div class="icon">
-			<FaGithubSquare />
+      <Icon src={FaBrandsSquareGithub} size={size} />
 		</div>
 	</a>
   <a 
-		href="https://twitter.com/tsakishii"
-    aria-label="GitHub"
+		href="https://x.com/tsakishii"
+    aria-label="X"
 		target="_blank"
 	  rel="noopener noreferrer"
 	>
 		<div class="icon">
-			<FaTwitterSquare />
+      <Icon src={FaBrandsXTwitter} size={size}/>
 		</div>
 	</a>
 	<a
@@ -32,7 +35,7 @@
 		rel="noopener noreferrer"
 	>
 		<div class="icon">
-			<FaLinkedin />
+      <Icon src={FaBrandsLinkedin} size={size} />
 		</div>
 	</a>
 </div>
