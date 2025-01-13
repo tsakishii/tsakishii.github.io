@@ -12,14 +12,14 @@
 		"@sveltejs/adapter-auto": "^2.1.1",
 		"@sveltejs/adapter-static": "^2.0.3",
 		"@sveltejs/kit": "^1.30.4",
-		"gh-pages": "^6.2.0",
+		"gh-pages": "^6.3.0",
 		"svelte": "^4.2.19",
-		"typescript": "^5.7.2",
+		"typescript": "^5.7.3",
 		"vite": "^4.5.5"
 	},
 	"type": "module",
 	"dependencies": {
 		"svelte-icons": "^2.1.0",
-		"svelte-language-server": "^0.17.8"
+		"svelte-language-server": "^0.17.10"
 	}
 }
