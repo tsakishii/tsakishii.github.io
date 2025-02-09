@@ -41,15 +41,15 @@
 
   @media screen and (max-width: 768px) {
     main {
-      width: 90%;
-      top:5%
+      width: 80%;
+      top:5%;
     }
   }
 
   @media screen and (max-width: 480px) {
     main {
-      width: 70%;
-      top: 5%
+      width: 60%;
+      top: 5%;
     }
 
     h1 {

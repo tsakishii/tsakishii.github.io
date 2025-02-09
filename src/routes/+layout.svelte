@@ -20,7 +20,7 @@
 	:global(body) {
     display: grid;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     margin: 0;
     text-align: center;
     background-color: var(--bgColor);

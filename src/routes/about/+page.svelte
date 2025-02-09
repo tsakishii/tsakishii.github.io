@@ -23,9 +23,9 @@
 
 <style>
   main {
-    position: relative;
-    left: auto;
-    right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
     top: 5%;
     margin: 0 auto;
     width: 600px;
@@ -35,11 +35,11 @@
 
   .description {
     background-color: var(--fgColor);
-    width: auto;
-    height: 138px;
+    width: 100%;
+    height: 105px;
     justify-content: center;
     text-align: center;
-    padding: 20px 20px 20px 20px;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     top: 50%;
     color: var(--bgColor);
     border-radius: 40px;
@@ -53,20 +53,42 @@
   }
 
   p {
-    font-size:22px;
+    font-size: 20px;
     text-align: center;
     vertical-align: middle;
   }
 
   @media screen and (max-width: 768px) {
     main {
-      width: 90%;
-      top: 10%;
+      width: 100%;
+      top:5%
     }
-    .description {
-      width: auto;
-      height: 155px;
+    
+    p {
+      font-size: 18px;
+      text-align: center;
+      vertical-align: middle;
     }
+  }
+
+  @media screen and (max-width: 480px) {
+    main {
+      width: 70%;
+      top: 5%
+    }
+
+    h1 {
+      font-size: 24px; /* Adjust as needed */
+      font-weight: 600;
+      user-select: none;
+    }
+
+    .description{
+      width: 100%;
+      height: 145px;
+      padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    }
+
     p {
       font-size: 18px;
       text-align: center;
