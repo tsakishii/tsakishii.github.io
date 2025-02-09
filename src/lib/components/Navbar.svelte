@@ -1,17 +1,11 @@
 <script>
   import routes from '$lib/Routes.js';
-  import Hamburger from './Hamburger.svelte';
-
   export let path;
-
   export let opened = false;
 </script>
 
 <div class={opened ? "navbar-closed" : "navbar-opened"}>
   <div class="button-container">
-    <div class="burger">
-      <Hamburger bind:open={opened} />
-    </div>
     <div class="buttons">
       {#each routes as route}
         {#if path === route.href}
@@ -26,43 +20,29 @@
       {/each}
     </div>
   </div>
-  <div class="burger-buttons">
-    {#each routes as route}
-      {#if path === route.href}
-        <a class="button selected" href={route.href}>
-          {route.label}
-        </a>
-      {:else}
-        <a class="button" href={route.href}>
-          {route.label}
-        </a>
-      {/if}
-    {/each}
-  </div>
 </div>
 
 <style>
   .navbar-opened {
     display: flex;
     justify-content: flex-end;
-    margin-right: 5rem;
+    margin-right: 2rem;
   }
 
   .button-container {
     display: flex;
     justify-content: flex-end;
-    margin-right: 5rem;
+    margin-right: 2rem;
   }
 
   .buttons {
     position: absolute;
     display: flex;
-    justify-content: space-between;
     align-items: end;
-    max-width: 100px;
+    max-width: 3rem;
     width: 100%;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0.5rem;
   }
 
   .buttons :global(a) {
@@ -70,11 +50,11 @@
   }
 
   .buttons .button {
-    padding: 0;
+    padding: 1rem 1rem;
     display: block;
     cursor: pointer;
     text-decoration: none;
-    margin: 10px;
+    margin: auto;
     font-size: 20px;
   }
 
@@ -83,34 +63,7 @@
     color: var(--hoverColor);
   }
 
-  @media (min-width: 900px) {
-    .burger {
-      display: none !important;
-    }
-
-    .burger-buttons .button {
-      display: none !important;
-    }
-  }
-
   @media (max-width: 900px) {
-
-    .burger-buttons .button {
-      display: flex;
-      text-decoration: none;
-      align-items: center;
-      margin: 10 auto;
-      padding: 10 auto;
-      color: var(--fgColor);
-    }
-
-    .burger-buttons {
-      display:none;
-    }
-
-    .burger {
-      display: none;
-    }
 
     .button:hover {
       display: none;
@@ -122,5 +75,16 @@
 		  align-items: center;
 		  font-weight: 500;
 	  }
+    
+    .buttons {
+      position: absolute;
+      display: flex;
+      align-items: end;
+      max-width: 8.25rem;
+      width: 100%;
+      text-align: center;
+      margin-top: 0.5rem;
+    }
+
   }
 </style>
