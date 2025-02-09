@@ -39,7 +39,8 @@
     height: 105px;
     justify-content: center;
     text-align: center;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    margin: 1.5rem auto;
+    padding: 1rem 1rem 1rem 1rem;
     top: 50%;
     color: var(--bgColor);
     border-radius: 40px;
@@ -73,20 +74,20 @@
 
   @media screen and (max-width: 480px) {
     main {
-      width: 70%;
+      width: 80%;
       top: 5%
+    }
+
+    .description{
+      width: 80%;
+      height: 175px;
+      padding: -0.5rem 0.5rem 2.5rem 1.5rem;
     }
 
     h1 {
       font-size: 24px; /* Adjust as needed */
       font-weight: 600;
       user-select: none;
-    }
-
-    .description{
-      width: 100%;
-      height: 145px;
-      padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     }
 
     p {
