@@ -1,5 +1,5 @@
 <script>
-	import Navbar from '$lib/components/Navbar.svelte';
+  import Navbar from '$lib/components/Navbar.svelte';
   import Footer from '$lib/components/Footer.svelte';
 </script>
 
@@ -17,7 +17,7 @@
     --svelteColor: #ff3e00;
   }
 
-	:global(body) {
+  :global(body) {
     display: grid;
     flex-direction: column;
     width: 80%;
