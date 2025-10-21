@@ -1,5 +1,9 @@
+<script>
+  export let greeting;
+</script>
+
 <div class="greeting">
-  <h1>Welcome stranger!</h1>
+  <h1>{greeting}</h1>
 </div>
 
 <style>

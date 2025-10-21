@@ -2,9 +2,16 @@
   <title>Tsakishii's place — About</title>
 </svelte:head>
 
+<script>
+  import Greeting from '$lib/components/Greeting.svelte';
+  let about = "About me 🖥️"
+</script>
+
 <main>
+  <div>
+    <Greeting greeting={about} />
+  </div>
   <div class="container">
-    <h1>About me 🖥️</h1>
     <p class="description">
       I'm a DevOps Engineer who's all about that cool software engineering.
       Got a soft spot for GNU Emacs, and I'm totally into Lisp languages
@@ -22,16 +29,17 @@
 </main>
 
 <style>
+
+
   main {
     position: absolute;
     left: 0;
     right: 0;
-    top: 5%;
+    top: 12%;
     margin: 0 auto;
-    width: 600px;
-    text-align: center;
+    width: 580px;
     user-select: none;
-	}
+  }
 
   .description {
     background-color: var(--fgColor);
@@ -39,23 +47,15 @@
     height: 105px;
     justify-content: center;
     text-align: center;
-    margin: 1.5rem auto;
-    padding: 1rem 1rem 1rem 1rem;
-    top: 50%;
+    margin: 1.2rem auto;
+    padding: 1.2rem 1rem 0.6rem 1rem;
     color: var(--bgColor);
     border-radius: 40px;
     border: 10px solid var(--fgColor);
   }
 
-  h1 {
-    font-size: 37px;
-    font-weight: 700;
-    color: var(--fgColor);
-  }
-
   p {
     font-size: 20px;
-    text-align: center;
     vertical-align: middle;
   }
 

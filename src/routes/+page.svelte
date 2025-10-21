@@ -2,6 +2,7 @@
   import Greeting from '$lib/components/Greeting.svelte';
   import Card from '$lib/components/Card.svelte';
   import Social from '$lib/components/Social.svelte';
+  let greet = "Welcome Stranger!"
 </script>
 
 <svelte:head>
@@ -10,7 +11,7 @@
 
 <main>
   <div>
-    <Greeting />
+    <Greeting greeting={greet} />
   </div>
   <div>
     <Card />
@@ -22,19 +23,19 @@
 </main>
 
 <style>
-	main {
+  main {
     position: absolute;
     left: 0;
     right: 0;
-    top: 10%;
+    top: 12%;
     margin: 0 auto;
     width: 600px;
     text-align: center;
-	}
+  }
 
-	h1 {
+  h1 {
     font-size: 37px;
-		font-weight: 700;
+	font-weight: 700;
     color: var(--fgColor);
     user-select: none;
   }
