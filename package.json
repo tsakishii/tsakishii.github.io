@@ -1,6 +1,6 @@
 {
 	"name": "portfolio",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -9,13 +9,13 @@
 		"deploy": "gh-pages -d build"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.1.1",
-		"@sveltejs/adapter-static": "^2.0.3",
-		"@sveltejs/kit": "^1.30.4",
+		"@sveltejs/adapter-auto": "^7.0.0",
+		"@sveltejs/adapter-static": "^3.0.10",
+		"@sveltejs/kit": "^2.48.0",
 		"gh-pages": "^6.3.0",
-		"svelte": "^4.2.20",
+		"svelte": "^5.42.2",
 		"typescript": "^5.9.3",
-		"vite": "^4.5.14"
+		"vite": "^7.1.12"
 	},
 	"type": "module",
 	"dependencies": {
