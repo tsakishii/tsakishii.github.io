@@ -1,5 +1,5 @@
 #+title: Website
-#+author: kiwib0y
+#+author: tsakishii
 
 * This is my website
   A compact intro about myself with a few links to my social media profiles
