@@ -1,5 +1,5 @@
 <script>
-	import me from '$lib/assets/me.jpeg';
+  import me from '$lib/assets/me.jpeg';
 </script>
 
 <div>
